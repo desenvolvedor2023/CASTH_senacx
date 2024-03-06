@@ -1,0 +1,42 @@
+body.main-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f3f7 !important;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 250px;
+    width: 850px;
+    height: 450px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: white; /* Define o fundo da main como transparente */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 100px;
+    background-image: url(../img/logo-senac\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.input {
+    width: 600px;
+    height: 45px;
+}
+
+.btn {
+    width: 600px;
+}
+
+.perdeu {
+    margin-left: 240px;
+}
