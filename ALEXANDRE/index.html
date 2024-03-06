@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENAC X</title>
+    <!-- Adiciona o favicon -->
+    <link rel="icon" href="/uuuu.jfif" type="image/x-icon">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #ffffff;
+        }
+        form {
+            width: 700px; /* Largura do formulário ajustada para 400px */
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona sombra personalizada */
+            text-align: center; /* Centraliza o texto */
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+        input[type="submit"] {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            border: none;
+            background-color: #007bff;
+            color: #ffffff;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        .form-group {
+            text-align: left; /* Alinha o texto dos rótulos à esquerda */
+        }
+        .logo-container {
+            display: flex;
+            justify-content: center;
+        }
+        .logo-container img {
+            max-width: 100px; /* Ajusta o tamanho máximo da imagem */
+            margin-bottom: 20px; /* Adiciona espaço abaixo da imagem */
+        }
+    </style>
+</head>
+<body>
+<div class="shadow-lg p-3 mb-5 bg-white rounded">
+    <div class="logo-container">
+        <img src="/Senac.png" alt="">
+    </div>
+    <form action="processar_login.php" method="post">
+        <h1>Escolha sua forma de login</h1>
+        <div class="form-group">
+            <input type="radio" id="adm" name="tipo_login" value="adm">
+            <label for="adm"><h4> Administrador </h4> </label>
+        </div>
+        <div class="form-group">
+            <input type="radio" id="jurado" name="tipo_login" value="jurado">
+            <label for="jurado"> <h4> Jurado </h4> </label>
+        </div>
+        <input type="submit" value="Login">
+    </form>
+</div>
+<!-- bootstrap jquery -->
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
