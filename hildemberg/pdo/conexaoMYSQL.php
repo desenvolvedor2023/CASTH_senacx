@@ -5,7 +5,7 @@ try{
     $username = 'root';
     $password = "";
     $DB_PORT = '3310';
-    $BASE = "ibituruna";
+    $BASE = "competicao";
     
     $pdo = new PDO("mysql:host=$host;dname=$BASE;charset=utf8",$username,$password);
         //echo "conectado";

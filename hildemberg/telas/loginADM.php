@@ -13,8 +13,8 @@
     <main>
         <br><div class="logo"></div><br>
         <div class="input">
-            <input type="text" class="form-control input" aria-label="Text input with checkbox" placeholder="Identificação de Administrador"><br>
-            <input type="text" class="form-control input" aria-label="Text input with checkbox" placeholder="Senha"><br>
+            <input type="text" id="loginADM_email" class="form-control input" aria-label="Text input with checkbox" placeholder="e-mail de Administrador"><br>
+            <input type="text" id="loginADM_senha" class="form-control input" aria-label="Text input with checkbox" placeholder="Senha"><br>
             <button type="button" class="btn btn-primary btn-lg">Acessar</button>
             <a class="perdeu" href="">Perdeu a senha?</a>
         </div>
