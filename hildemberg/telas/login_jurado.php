@@ -22,7 +22,7 @@
             </div>
         </main>
     </form>
-  
+
     <!-- LIBRAS -->
     <div vw class="enabled">
         <div vw-access-button class="active"></div>

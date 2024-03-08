@@ -3,6 +3,7 @@
 session_start();
 require_once('../biblioteca.php');
 require_once('conexaoMYSQL.php');
+
 //Pegando as informações com POST via ACTION
 if(isset($_POST['loginJurado_email']) && isset($_POST['loginJurado_senha'])){
     $email = trim($_POST['loginJurado_email']);

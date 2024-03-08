@@ -11,6 +11,6 @@ try{
         //echo "conectado";
     }catch(Exception $e){
         echo "Erro ao conectar no banco de dados1<br>";
-        echo $e;
+        echo $e->getMessage();
     }
 ?>
