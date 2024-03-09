@@ -1,0 +1,48 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+}
+form {
+    width: 700px; /* Largura do formulário ajustada para 400px */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona sombra personalizada */
+    text-align: center; /* Centraliza o texto */
+}
+h1 {
+    margin-bottom: 20px;
+}
+input[type="radio"] {
+    margin-right: 10px;
+}
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.form-group {
+    text-align: left; /* Alinha o texto dos rótulos à esquerda */
+}
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+.logo-container img {
+    max-width: 100px; /* Ajusta o tamanho máximo da imagem */
+    margin-bottom: 20px; /* Adiciona espaço abaixo da imagem */
+}
