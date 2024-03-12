@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENAC X</title>
+</head>
+<body>
+    <h2>Adicionar Novo Jurado</h2>
+    <form method="POST" action="../funcoes/adicionar_jurado.php">
+        <label for="email">Email:</label><br>
+        <input type="email" id="addJurado_email" name="addJurado_email" required><br>
+        
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="addJurado_nome" name="addJurado_nome" required><br>
+        
+        <label for="celular">Celular:</label><br>
+        <input type="text" id="addJurado_celular" name="addJurado_celular" required><br>
+        
+        <label for="competicao">Competição:</label><br>
+        <input type="text" id="addJurado_competicao" name="addJurado_competicao" required><br>
+        
+        <label for="tipoUser">Tipo de Usuário:</label><br>
+        <input type="text" id="addJurado_tipoUser" name="addJurado_tipoUser" required><br>
+        
+        <label for="senha">Senha:</label><br>
+        <input type="password" id="addJurado_senha" name="addJurado_senha" required><br>
+        
+        <input type="submit" value="Adicionar">
+    </form>
+</body>
+</html>

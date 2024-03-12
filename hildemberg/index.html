@@ -3,29 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SENAC X - Escolha sua forma de login</title>
-<!-- bootstrap -->
-    <script  
-        src="https://code.jquery.com/jquery-3.7.1.js"
-        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-        crossorigin="anonymous">
-    </script>
+    <title>SENAC X</title>
+    <!-- Adiciona o favicon -->
+    <link rel="icon" href="icon/senaicon.jfif" type="image/x-icon">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- css proprio  -->
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <h1>Escolha sua forma de login</h1>
-    <form action="funcoes/processar_login.php" method="POST">
-        <!-- login adm -->
-        <input type="radio" id="adm" name="adm" value="adm"> 
-        <label for="adm">Administrador</label><br>
-        <!-- login jurado -->
-        <input type="radio" id="jurado" name="jurado" value="jurado">
-        <label for="jurado">Jurado</label><br>
-        <!-- btt -->
-        <input type="submit" value="Login">
-    </form>
-
-</body>
-<!--  bootstrap jquery -->
+     
+    <input type="button" value=" ">
+    <div class="shadow-lg p-3 mb-5 bg-white rounded">
+        <!-- icone senac title -->
+        <div class="logo-container">
+            <img src="img/Senac.png" alt="">
+        </div>
+        <!-- form -->
+        <form action="http://localhost/SENACX/funcoes/processar_login.php" method="POST">
+            <h1>Escolha sua forma de login</h1>
+            <div class="form-group">
+                <input type="radio" id="adm" name="adm" value="adm">
+                <label for="adm"><h4> Administrador </h4> </label>
+            </div>
+            <div class="form-group">
+                <input type="radio" id="jurado" name="jurado" value="jurado">
+                <label for="jurado"> <h4> Jurado </h4> </label>
+            </div>
+            <input type="submit" value="Logar Senac">
+        </form>
+    </div>
+<!-- bootstrap jquery -->
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
